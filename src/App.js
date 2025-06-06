@@ -43,6 +43,7 @@ function App() {
               </ThemeProvider>
             }
           >
+            <Route path="/" element={<Dashboard />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/userdetail" element={<UserDetail />} />
             <Route path="/live_gps" element={<LiveGPS />} />

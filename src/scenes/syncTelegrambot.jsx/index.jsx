@@ -74,7 +74,7 @@ const SyncTelegramBot = () => {
       <Box display="flex" alignItems="center" gap={2} mt={3}>
         <Telegram sx={{ fontSize: 40, backgroundColor: "blue", color: "white", borderRadius: "50%", p: 1 }} />
         <Typography variant="h5">
-          Effortlessly schedule your posts without the need to log into a dashboard
+          Effortlessly schedule your Request without the need to log into a dashboard
         </Typography>
       </Box>
 
@@ -97,9 +97,8 @@ const SyncTelegramBot = () => {
           Save & Show Posts
         </Button>
       </Box>
-
-      <br />
-      <Header subtitle="scheduled by Telegram bot" />
+      
+      <Header subtitle="scheduled by Telegram bot"  />
       {/* Render Telegram Posts Dynamically */}
       {telegramPosts.length > 0 ? (
         telegramPosts.map((post, index) => (
@@ -107,8 +106,10 @@ const SyncTelegramBot = () => {
         ))
       ) : (
         <Typography>No scheduled posts available.</Typography>
-      )}
+      )}  <TelegramPost />
     </Box>
+  
+
   );
 };
 

@@ -109,7 +109,7 @@ const UserDetails = () => {
         >
            
 
-           <form className="space-y-6 max-w-4xl">
+           <form className="space-y-6 max-w-4xl ml-10 mt-3">
           
     
 

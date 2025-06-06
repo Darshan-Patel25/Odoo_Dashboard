@@ -30,19 +30,19 @@ const ServiceCard = ({ serviceLat, serviceLng }) => {
   };
 
   return (
-    <div className="w-full h-24 pl-6 pt-3 pb-3 pr-6 bg-white m-1 rounded-lg shadow flex items-center justify-between">
+    <div className="w-full h-24 pl-6 pt-3 pb-3 pr-6 bg-gray-300 m-1 rounded-lg shadow flex items-center justify-between">
       {/* Left Section: Name and Status */}
       <div>
-        <h2 className="text-xl font-semibold">Courier Service</h2>
+        <h2 className="text-xl font-semibold text-black">Courier Service</h2>
         <p className="text-gray-600">
           Status: <span className="font-medium text-green-600">Active</span>
         </p>
       </div>
 
       {/* Middle Section: Service Type */}
-      <div className="text-gray-600 text-center">
+      <div className="text-gray-600 text-center ">
         <p>Service Type:</p>
-        <span className="font-medium">Express Delivery</span>
+        <span className="font-medium text-black">Express Delivery</span>
       </div>
 
       {/* Right Section: Button */}
